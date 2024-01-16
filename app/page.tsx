@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 
+import Example from '@/app/_components/example'
+
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -37,6 +39,7 @@ export default function Home() {
           height={37}
           priority
         />
+        <Example />
       </div>
 
       <div className={styles.grid}>
